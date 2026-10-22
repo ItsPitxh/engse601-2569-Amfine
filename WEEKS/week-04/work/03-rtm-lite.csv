@@ -1,2 +1,6 @@
-Requirement_ID,Requirement_Source_Version,Linked_Risk_or_Stakeholder,Acceptance_Basis,Planned_Test_Level,Planned_Evidence,Evidence_Status,Owner,Open_Issue_or_Next_Action
-[กรอก],[กรอก],[กรอก],[AC-...],[Component/Integration/System/UAT/Review],[กรอก],[Existing/Planned/Not Ready/Not Executed],[กรอก],[กรอก]
+Requirement_ID,Original_text_source,Version,Linked_BR,Linked_Risk,Acceptance_Basis,Planned_Test_Level,Planned_Evidence,Status,Owner,Note
+FR-05,Proposal v1 §3.2 Table 4,v1 2569-10-09,BR-05,QR-01,"FR-05-AC-01..AC-04 ใน WEEKS/week-03/work/critical-requirement-review.md",Unit+Integration+E2E,TC-05 + TC-11 (Proposal §3.7 Table 9) + log emit event FR-11,Conditional,Peachu,ขนาดไฟล์/PDF/reference_id รอยืนยันจากบริษัท
+FR-11,Proposal v1 §3.2 Table 4,v1 2569-10-09,"BR-02,BR-05,BR-06",QR-05,"FR-11-AC-01..AC-04 ใน W03",Integration+Performance,TC-11 + raw timings 30 รอบ + log fallback,Conditional,Peachu,P95 vs mean / retry interval / fallback policy รอยืนยัน
+FR-15,Proposal v1 §3.2 Table 4,v1 2569-10-09,BR-01,QR-04,"FR-15-AC-01..AC-05 ใน W03",Security+Integration+Unit,TC-15.a/b/c/d (ขยายจาก TC-15 เดิม) + PDPA checklist §7 Table 11,Not Ready,Peachu + อาจารย์ที่ปรึกษา,consent wording / retention / FR-19 (retention) รอตัดสิน
+FR-17,Proposal v1 §3.2 Table 4,v1 2569-10-09,BR-05,QR-01,"FR-17 wording ปัจจุบัน (uniqueness ของ reference) · AC จะทำเพิ่มใน W05+",Integration,TC-17 (Proposal §3.7 Table 9),Ready,Peachu,ยืน wording เดิม · เป็นคู่กับ FR-05
+FR-16,Proposal v1 §3.2 Table 4,v1 2569-10-09,BR-05,QR-05,"ยืมโครง AC ของ FR-11 (ฝั่งลูกค้า) · ยังไม่ได้เขียน AC แยก",Integration,TC-16 (Proposal §3.7 Table 9),Planned,Peachu,ขยายใน Sprint ที่พัฒนา FR-11
