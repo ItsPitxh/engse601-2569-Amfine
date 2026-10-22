@@ -1,0 +1,9 @@
+dr_id,risk,root_cause_in_design_doc,affected_req_or_ac,level,impact_on_testability,proposal_or_question,owner,due_date,status
+DR-01,Overall Readiness ถูกคำนวณที่ชั้นหน้าจอ,HLD D-03,FR-X-05 · BR-X-01 · AC-X-05,สูง,AC-X-05 ทดสอบที่ระดับ Service ไม่ได้,ย้ายการคำนวณไปชั้น Application,สถาปนิกระบบ,,Open
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,

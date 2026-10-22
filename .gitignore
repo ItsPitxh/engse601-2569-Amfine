@@ -1,0 +1,22 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.tmp
+~$*
+
+# Generated/temp files
+*.bak
+*.autosave
+*.log
+tmp/
+temp/

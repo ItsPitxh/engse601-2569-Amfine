@@ -1,0 +1,9 @@
+tr_id,req_id,req_version,ac_id,what_design_must_support,component_id,component_name,evidence_location_in_design_doc,support_status,observation_point,linked_dr,linked_dq,notes
+TR-01,FR-X-05,1.0,AC-X-05,Derive Overall Readiness จาก Required Item Decisions,C-01,Event Request UI,HLD ตาราง 2 และ D-03,Not Supported,Service,DR-01,,ขัด BR-X-01
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

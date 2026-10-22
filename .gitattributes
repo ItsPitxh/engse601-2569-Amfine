@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.md text diff=markdown
+*.csv text
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.png binary
+*.jpg binary
+*.jpeg binary

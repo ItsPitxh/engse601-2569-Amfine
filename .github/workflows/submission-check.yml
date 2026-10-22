@@ -1,0 +1,13 @@
+name: ตรวจความครบของงานกลุ่ม ENGSE601
+on:
+  push:
+  release:
+    types: [published]
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ตรวจไฟล์ตาม SUBMISSIONS.md (ดูผลในแท็บ Summary)
+        run: python3 tools/check_submission.py .
